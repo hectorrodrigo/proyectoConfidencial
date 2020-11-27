@@ -1,0 +1,47 @@
+body{
+    background: #817f7f; /*un fondo colot gris claro*/
+}
+
+.titulo1{
+    color: blue; /*color de la palabra*/
+    text-align: center; /*centrar la palabra*/
+    font-family: georgia;/*tipo de letra*/
+}
+
+.foto1{
+    float: left; 
+    margin-left: 325px; /*agrega un margen de la izquierdo de la foto*/
+    margin-right: 200px;/*agrega un margen de la derecho de la foto*/
+    border-radius: 15px;/*para redondear las esquinas de las imagenes*/
+    box-shadow: 1px 10px 15px rgba(0, 255, 21, 0.75);/*agregaun sombreado de color verde*/
+    transition: all 500ms ease;/* aumenta la imagen con una transition suave al pasar el cursor*/
+}
+
+.foto1:hover{
+    transform: scale(1.1);/* tamaña del aumento de la imagen al pasar el cursor*/
+}
+
+.tabla1{
+    margin-left: 280px; /*agrega un margen de la izquierdo de la tabla*/
+    border: 5px solid rgba(255, 255, 255, 0.75); /*agrega un marco al rededor de toda la tabla*/
+    float: left;/*para agregar el elemento a la izquierda del otro elemento*/
+    margin-right: 155px; /*agrega un margen a la derecha*/
+}
+
+.tabla1 td{
+    text-align: center; /*centra las palabras de las celdas*/
+    border: 3px solid rgba(255, 255, 255, 0.75); /*agrega marcos a cada una de las celdas*/
+}
+
+.tabla1 td:hover{
+    background:  rgba(0, 255, 21, 0.75); /*al momento de pasar el cursor el fondo se pondrá de color verde*/
+    color: white;/*cuando el cursor las letras se pondrán de color blanco*/
+    border-color: black;
+}
+
+.tabla2 td{
+    text-align: center;/*centrar las palabras de las celdas*/
+}
+
+
+
